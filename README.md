@@ -19,7 +19,7 @@ The data used was solar irradiance measurements from [Loyola Marymount Universit
 The metric used for predictions was Direct Normal Irradiance (DNI), in W/m2. This is the amount of irradiance on a surface perpendicular to the sun. For reference, a square meter near the equator receives about 1 kW/m2 on a clear day.
 
 ## Findings
-Initial findings are not fantastic.
+
 
 ## Limitations
 LMU's SOLRMAP dataset website warns to use the data between December 2014 and July 9th, 2015 with caution. During this period the RSR was not taking a full charge, leading to some gaps in data.
