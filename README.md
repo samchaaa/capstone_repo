@@ -18,7 +18,7 @@ Can future solar output be predicted using current and past data?
 
 One machine learning model suited to this problem is LSTMs (long short-term memory), a type of RNN (recurrent neural network). LSTMs used to predict future sequences in a time series based on past time steps.
 
-Data used were solar irradiance measurements from [Loyola Marymount University](https://midcdmz.nrel.gov/apps/go2url.pl?site=LMU_) from April 06, 2010 to May 05, 2016, collected from a rotating shadowband radiometer (RSR). This dataset was found via the National Renewable Energy Laboratory's (NREL) list of Measurement and Instrumentation Data Centers (MIDC).
+Data used were solar irradiance measurements from [Loyola Marymount University](https://midcdmz.nrel.gov/apps/go2url.pl?site=LMU) from April 06, 2010 to May 05, 2016, collected from a rotating shadowband radiometer (RSR). This dataset was found via the National Renewable Energy Laboratory's (NREL) list of Measurement and Instrumentation Data Centers (MIDC).
 
 Metric used for predictions was Direct Normal Irradiance (DNI), in W/m2. This is the amount of irradiance on a surface perpendicular to the sun. For reference, a square meter near the equator receives about 1 kW/m2 on a clear day.
 
